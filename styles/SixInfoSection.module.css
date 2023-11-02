@@ -1,0 +1,117 @@
+.sixSectionWrapper {
+  padding-bottom: 5%;
+}
+
+.title {
+  font-size: 42px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.subTitle {
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+.infoSectionTitle {
+  font-size: 42px;
+  margin: 20px 0;
+}
+
+.infoSectionSubTitle {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.gridContainer {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+}
+
+.gridItem {
+  border: 2px solid #4436ca;
+  background-color: #4436ca;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.gridItemDarkGrayBg {
+  border: 2px solid #262626;
+  background-color: #262626;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.gridItemBlackBg {
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.itemWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  padding: 0 20px;
+}
+
+.descriptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.infoSectionMessage {
+  font-size: 18px;
+  line-height: 2;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.buttonSection {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 20px;
+}
+
+.buttonSection span:hover {
+  cursor: pointer;
+  color: rgb(255, 180, 65);
+}
+
+.subscribeWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.subscribeBtnWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.inputWrapper {
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding-left: 15px;
+}
+
+.newsletterTitle{
+  font-size: 24px;
+}

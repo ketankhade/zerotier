@@ -1,0 +1,39 @@
+
+
+.thirdInfoSectionWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+.infoSectionTitle {
+  font-size: 42px;
+  padding: 20px 0;
+}
+
+.infoSectionMessage {
+  font-size: 24px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.subSection{
+  display: flex;
+  background-image: linear-gradient(133deg, #fdb25d, #4436ca);
+  border-radius: 20px;
+  padding: 20px 20px 50px 20px;
+  margin-bottom: 40px;
+  width: 97%;
+}
+
+.descriptionWrapper{
+  padding-left: 25px;
+}
+
+.specialMsg{
+  font-size: 18px;
+}
+

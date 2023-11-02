@@ -1,0 +1,46 @@
+.secondInfoSectionWrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  border: 2px solid #262626;
+  margin-top: 4%;
+  padding-bottom: 4%;
+  border-radius: 20px;
+  background: #262626;
+}
+
+.subSectionOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.subSectionTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 25px;
+  padding: 0 30px;
+}
+
+.descriptionWrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.infoSectionTitle {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.infoSectionMessage {
+  font-size: 24px;
+  line-height: 1.5;
+}
